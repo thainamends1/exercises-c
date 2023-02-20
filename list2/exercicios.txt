@@ -1,0 +1,64 @@
+-> Lista 2 de exercícios em C.
+--------------------------------------------------------------------------
+ex1 - Faça um programa que leia 3 valores inteiros e chame uma
+função que receba estes 3 valores de entrada e retorne eles ordenados.
+Ou seja, o menor valor na primeira variável, o segundo menor valor na
+variável do meio, e o maior valor na última variável. A função deve
+retornar o valor 1 se os três valores forem iguais e 0 se existirem
+valores diferentes. Exibir os valores ordenados na tela.
+
+ex2 - Crie uma função que receba dois parâmetros: um array e um
+valor do mesmo tipo do array. A função deverá preencher os elementos
+de array com esse valor. Não utilize índices para percorrer o array,
+apenas aritmética de ponteiros.
+
+ex3 - Crie uma função que receba como parâmetro um array e o
+imprima. Não utilize índices array, apenas aritmética de ponteiros.
+
+ex4 - Considere a seguinte declaração: int A, *B, **C, ***D.
+Escreva um programa que leia a variável a e calcule e exiba
+o dobro, o triplo e o quádruplo desse valor utilizando apenas
+os ponteiros B, C e D. O ponteiro B deve ser usada para calcular
+o dobro, C o triplo e D o quádruplo.
+
+ex5 - Escreva uma função que dado um número real passado como
+parâmetro, retorne a parte inteira e a parte fracionária deste
+número. Escreva um programa que chama esta função.
+
+ex6 - Implemente uma função que calcule a área da superfície e
+o volume de uma esfera de raio R. Essa função deve obedecer ao
+protótipo:
+
+void calc_esfera(float R, float *area, float *volume)
+
+A área da superfície e o volume são dados, respectivamente, por:
+A = 4 * p * R2
+V = 4/3 * p * R3
+
+ex7 - Implemente uma função que receba como parâmetro um array
+de números reais de tamanho N e retorne quantos números negativos
+há nesse array. Essa função deve obedecer ao protótipo:
+
+int negativos(float *vet, int N);
+
+ex8 - Escreva um programa que declare um array de inteiros e
+um ponteiro para inteiros. Associe o ponteiro ao array. Agora,
+some mais um (+1) a cada posição do array usando o ponteiro (use *).
+
+ex9 - Crie uma função para somar dois arrays. Esta função deve receber
+dois arrays e retornar a soma em um terceiro array. Caso o tamanho do
+primeiro e segundo array seja diferente, então, a função retornará ZERO. (0).
+Caso a função seja concluída com sucesso a mesma deve retornar o valor UM (1).
+Utilize aritmética de ponteiros para manipulação do array.
+
+ex10 - Escreva uma função que retorna o maior valor de um array de tamanho N.
+Escreva um programa que leia N valores inteiros, imprima o array com k elementos
+por linha, e o maior elemento. O valor de k também deve ser fornecido pelo usuário.
+
+ex11 - Faça um programa que possua uma função para:
+
+-> leia duas notas e retorne por parâmetro (chamar uma função dedicada
+a ler duas notas válidas e que devolve os dois números lidos);
+-> calcule a média simples e a média ponderada e retorne por parâmetro,
+onde a segunda nota tem peso 2 media ponderada = (n1 + 2n2)/3;
+--------------------------------------------------------------------------
