@@ -1,0 +1,7 @@
+-> Lista 3 de exercícios em C.
+-----------------------------------------------------------------------
+ex1 - Escreva um programa que leia um número N e mostre na tela
+os N primeiros números pares e depois os N primeiros números
+ímpares.
+
+-----------------------------------------------------------------------
